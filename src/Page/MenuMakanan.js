@@ -1,11 +1,13 @@
 import { Component } from "react";
 import daftarMakanan from "../Lib/daftarMakanan";
+import Header from "./header";
 
 class MenuMakanan extends Component {
 
     render() {
         return (
             <div>
+                <Header />
                 <h3>Daftar makanan favorit: </h3>
                 <table style={{ width: "100%" }}>
                     <tbody>

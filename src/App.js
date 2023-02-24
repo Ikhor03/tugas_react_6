@@ -1,12 +1,14 @@
+import { Component } from 'react';
 import MenuHome from './Page/menuHome';
 
-function App() {
-  return (
-    <div>
-      <MenuHome />
-
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <MenuHome />
+      </div>
+    );
+  }
 }
 
 export default App;
